@@ -1,6 +1,6 @@
-import React, { Component, useState } from "react";
+import React, { Component } from "react";
 import "../styles/App.css";
-import { Link, Route, Switch, useLocation } from "react-router-dom";
+import { Link, Route, Switch } from "react-router-dom";
 import LocationDisplay from "./LocationDisplay";
 function About() {
   return <div>You are on the about page.</div>;
