@@ -16,8 +16,7 @@ class App extends Component {
   render() {
     return (
       <>
-        <div id="main">
-          {/* Do not remove the main div */}
+        <div id="App">
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
           <Switch>
